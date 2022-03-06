@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f4f6;
+}
+
+.wrapper{
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgb(64 64 64 /5%);
+    border: 1px solid rgb(64 64 64 /5%);
+}
+
+#stopwatch{
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+ul#buttons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul#buttons button{
+
+    background: #0f62fe;
+    border: transparent;
+    width: 100px;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    display: block;
+    padding: 10px 0 10px 20px;
+    cursor: pointer;
+}
+
